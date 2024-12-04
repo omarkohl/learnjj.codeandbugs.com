@@ -4,44 +4,39 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Ju Jutsu**!
 
-## Getting Started
+Ju Jutsu is a VCS (version control system) like **Git or Mercurial** that is
+fully compatible with Git. You can use it inside a Git repository with the
+option of going back to to Git at any time. You can in fact mix and match Git
+and Ju Jutsu commands, depending on which suit you more _right now_.
 
-Get started by **creating a new site**.
+## What will you get out of this tutorial?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+A hands-on introduction to Ju Jutsu where you will be trying all the commands
+on your own PC. It will show case real workflows, including resolving
+non-trivial conflicts and interacting with GitHub (e.g. to create pull
+requests).
 
-### What you'll need
+You will walk away with a solid understanding of Ju Jutsu concepts and get a
+taste for the situations in which it might be helpful to you.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Prerequisites
 
-## Generate a new site
+This tutorial makes certain assumptions. If those assumptions don't hold you
+may struggle with the tutorial.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+* You know **how to use Git**: While in theory Ju Jutsu is a great first VCS
+  for new developers, such developers would require a different tutorial. Also
+  in practice Ju Jutsu currently relies on Git for remote collaboration, so
+  knowing Git is basically unavoidable.
+* You are comfortable using **(interactive) rebase, squash and cherry-pick**:
+  In reality this is not a hard requirement but if you are not comfortable
+  using those Git tools then you probably use a very linear Git workflow and
+  you might feel that the workflows here presented are solving problems that
+  you don't have. I think Ju Jutsu is still great for such a simple, linear
+  workflow but it would probably require a different tutorial to make that case
+  well.
+* You are ok using a **CLI (command line interface)**: Since Ju Jutsu is quite
+  new there are few graphical tools or IDE support. This tutorial will be using
+  the CLI.
