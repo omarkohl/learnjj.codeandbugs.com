@@ -32,6 +32,13 @@ Make `jj` default to `jj log`, which is very convenient:
 jj config set --user ui.default-command log
 ```
 
+:::tip Repository-specific configuration
+
+If you are inside a repository, you can set configuration that only applies to
+that repository. Use `--repo` instead of `--user`.
+
+:::
+
 ### (Optional) Default "log" output
 
 Make it a little more verbose.
