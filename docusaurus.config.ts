@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://learnjj.codeandbugs.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'omarkohl', // Usually your GitHub org/user name.
-  projectName: 'learn-jj', // Usually your repo name.
+  projectName: 'learnjj.codeandbugs.com', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -38,7 +38,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/omarkohl/learn-jj/tree/main/',
+            'https://github.com/omarkohl/learnjj.codeandbugs.com/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -47,7 +47,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/omarkohl/learn-jj/tree/main/',
+            'https://github.com/omarkohl/learnjj.codeandbugs.com/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -78,7 +78,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/omarkohl/learn-jj',
+          href: 'https://github.com/omarkohl/learnjj.codeandbugs.com',
           label: 'GitHub',
           position: 'right',
         },
@@ -122,12 +122,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/omarkohl/learn-jj',
+              href: 'https://github.com/omarkohl/learnjj.codeandbugs.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CodeAndBugs. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
