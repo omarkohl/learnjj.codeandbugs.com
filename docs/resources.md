@@ -1,3 +1,6 @@
+---
+sidebar_position: 99
+---
 # Resources
 
 Other Ju Jutsu resources:

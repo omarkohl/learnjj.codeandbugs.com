@@ -1,3 +1,6 @@
+---
+sidebar_position: 98
+---
 # Ideas
 
 Ideas for things to include in this tutorial.
