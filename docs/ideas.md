@@ -12,4 +12,4 @@ Ideas for things to include in this tutorial.
   change with the rest. In both cases it will open the editor to edit the
   description.
 * Keep track of some development-local things e.g. the .idea/ directory but
-  don't push it.
+  don't push it. `jj rebase -r kz -d "root()"`
