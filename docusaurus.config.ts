@@ -97,7 +97,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} CodeAndBugs.com`,
+      copyright: `Copyright © ${new Date().getFullYear()} - See <a href="https://github.com/omarkohl/learnjj.codeandbugs.com/blob/main/LICENSE">LICENSE<a>`,
     },
     prism: {
       theme: prismThemes.github,
