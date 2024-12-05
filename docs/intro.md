@@ -7,10 +7,11 @@ slug: /
 
 Let's discover **Ju Jutsu**!
 
-Ju Jutsu is a VCS (version control system) like **Git or Mercurial** that is
-fully compatible with Git. You can use it inside a Git repository with the
-option of going back to to Git at any time. You can in fact mix and match Git
-and Ju Jutsu commands, depending on which suit you more _right now_.
+[Ju Jutsu](https://martinvonz.github.io/jj/latest/) is a VCS (version control
+system) like **Git or Mercurial** that is fully compatible with Git. You can
+use it inside a Git repository with the option of going back to to Git at any
+time. You can in fact mix and match Git and Ju Jutsu commands, depending on
+which suit you more _right now_.
 
 ## What will you get out of this tutorial?
 

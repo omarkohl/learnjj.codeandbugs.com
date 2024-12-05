@@ -82,16 +82,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Ju Jutsu Docs',
+              href: 'https://martinvonz.github.io/jj/latest/',
             },
           ],
         },
@@ -105,7 +97,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} CodeAndBugs. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CodeAndBugs.com`,
     },
     prism: {
       theme: prismThemes.github,
