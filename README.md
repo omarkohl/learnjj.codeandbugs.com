@@ -35,3 +35,12 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be
 served using any static contents hosting service.
+
+
+## Screenshots
+
+For taking screenshots on Ubuntu 22.04:
+
+* Open a new terminal (default size)
+* Execute `export PS1="$ "` and `PROMPT_COMMAND='echo -ne "\033]0;omar@ubuntu\007"'`
+* Take screenshots of that window with the Print key
