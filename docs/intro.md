@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# Ju Jutsu Tutorial
+# Introduction
 
 Let's discover **Ju Jutsu**!
 
