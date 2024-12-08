@@ -73,24 +73,4 @@ cd jj-tutorial
 jj
 ```
 
-```bash title="Expected output (similar)"
-@  nysytqzy omarkohl@posteo.net 2024-12-04 21:26:47 fc266a06
-│  (empty) (no description set)
-○  tnvsnpur omarkohl@posteo.net 2024-12-04 21:26:47 git_head() 7682755e
-│  improve code blocks
-○  twmqrppx omarkohl@posteo.net 2024-12-04 20:49:19 986b03cf
-│  add content to main tutorial page
-○  mvwtstvr omarkohl@posteo.net 2024-12-04 20:18:48 73ef312b
-│  update button on main page
-○  vwtumtnt omarkohl@posteo.net 2024-12-04 20:14:07 03616c82
-│  add commands for global jj configuration
-○  qutqwkol omarkohl@posteo.net 2024-12-04 20:14:07 5ed0d123
-│  update the global configuration
-○  qooyoykq omarkohl@posteo.net 2024-12-04 20:14:07 7b0d58b3
-│  add some basic jj setup instructions
-○  upslplnp omarkohl@posteo.net 2024-12-04 20:11:46 daf3d9d5
-│  dev: don't start the browser automatically
-○  uuvksslk omarkohl@posteo.net 2024-12-04 20:11:46 51376100
-│  Initial commit
-◆  zzzzzzzz root() 00000000
-```
+![Log output](./log.webp)
