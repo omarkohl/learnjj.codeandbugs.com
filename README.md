@@ -44,3 +44,4 @@ For taking screenshots on Ubuntu 22.04:
 * Open a new terminal (default size)
 * Execute `export PS1="$ "` and `PROMPT_COMMAND='echo -ne "\033]0;omar@ubuntu\007"'`
 * Take screenshots of that window with the Print key
+* Convert to webp `convert Screenshot\ from\ 2024-12-08\ 21-07-48.png log.webp`
