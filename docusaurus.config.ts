@@ -55,7 +55,7 @@ const config: Config = {
     navbar: {
       title: 'Ju Jutsu Tutorial',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Ju Jutsu Tutorial Logo',
         src: 'img/logo.svg',
       },
       items: [
