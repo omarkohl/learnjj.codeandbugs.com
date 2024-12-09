@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+description: Installation and configuration of jj.
+---
 # Setup
 
 ## Installation
