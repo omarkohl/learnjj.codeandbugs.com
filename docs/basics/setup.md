@@ -66,6 +66,19 @@ jj config edit --user
 ```
 
 
+### (Optional) Shell completion
+
+If you use bash, you can add the following to your `~/.bashrc`:
+
+```bash
+source <(jj util completion bash)
+```
+
+See [more
+examples](https://martinvonz.github.io/jj/latest/install-and-setup/#command-line-completion)
+for other shells.
+
+
 ## Clone Repository
 
 ```bash title="Clone the repository"
