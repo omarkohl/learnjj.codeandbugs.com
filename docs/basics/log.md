@@ -49,7 +49,10 @@ This sounds more complicated than it is. You'll see!
 
 :::
 
+
 ## Examples
+
+Try them!
 
 ```bash title="Show all the history"
 jj -r ::
@@ -69,3 +72,23 @@ jj -r 'committer_date(after:"2024-12-05") & committer_date(before:"2024-12-06") 
 
 Check the [Revset language](https://martinvonz.github.io/jj/latest/revsets/) for
 more options.
+
+
+## Other Commands
+
+Try them out!
+
+Some more useful commands and options:
+
+```bash title="Display log with file names"
+jj -s
+```
+
+```bash title="Summarize the current change"
+jj show
+```
+
+```bash title="Summarize the latest change on 'main', only file names"
+jj show -s main
+```
+
