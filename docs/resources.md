@@ -10,3 +10,4 @@ Other Ju Jutsu resources:
 * [Jujutsu Strategies - REASONABLY POLYMORPHIC](https://reasonablypolymorphic.com/blog/jj-strategy/index.html)
 * [jj init - Sym·poly·mathesy](https://v5.chriskrycho.com/essays/jj-init/)
 * [ofcrse - A Better Merge Workflow with Jujutsu](https://ofcr.se/jujutsu-merge-workflow)
+* [GG - Gui for JJ](https://github.com/gulbanana/gg)
