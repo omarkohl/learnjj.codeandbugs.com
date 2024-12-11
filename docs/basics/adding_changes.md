@@ -101,6 +101,10 @@ jj show
 ```
 
 ```bash
+jj status
+```
+
+```bash
 jj
 ```
 
