@@ -114,3 +114,17 @@ rm -rf .jj/
 That's it, as if `jj` had never been there! Any commits you created, rebased
 etc. via `jj` will of course be there since `jj` synchronizes the `jj` data
 with Git. It will just look as if everything had been done with Git.
+
+
+## (Optional) Live 'jj log'
+
+A convenient way of permanently seeing the current state of your log is to run
+this command in a separate terminal window and have it open next to your work.
+
+```bash
+cd path/to/repo
+watch --color jj --ignore-working-copy log --color=always
+```
+
+See an explanation and alternatives
+[here](https://martinvonz.github.io/jj/latest/FAQ/#can-i-monitor-how-jj-log-evolves).
