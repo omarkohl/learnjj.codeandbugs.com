@@ -13,7 +13,7 @@ jj version
 ```
 
 ```bash title="Expected output (similar)"
-jj 0.23.0-5de285f5eb727b613434979cd9d83c30cabaffae
+jj 0.24.0-32d2a85539254e9d96f9819072fa5c6ac70dd1e4
 ```
 
 
