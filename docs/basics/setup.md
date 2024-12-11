@@ -43,9 +43,8 @@ that repository. Use `--repo` instead of `--user`.
 
 :::
 
-### (Optional) Default "log" output
 
-Make it a little more verbose.
+### (Optional) Make "log" more verbose
 
 ```bash title="Get the default value"
 jj config get revsets.log
@@ -54,6 +53,7 @@ jj config get revsets.log
 ```bash title="Change the value"
 jj config set --user revsets.log "present(@) | ancestors(immutable_heads().., 7) | present(trunk())"
 ```
+
 
 ### (Optional) Manually edit the config file
 
