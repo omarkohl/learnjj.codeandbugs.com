@@ -232,7 +232,7 @@ jj squash -r CHANGE_ID
 
 By default `squash` will squash a change into that change's parent, which in
 this case is what we wanted. If that is not desired you can specify a different
-change with `--into`.
+target change with `--into`.
 
 Look at the final result:
 
