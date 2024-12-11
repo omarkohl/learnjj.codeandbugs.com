@@ -91,3 +91,26 @@ jj
 ```
 
 ![Log output](./log.webp)
+
+
+## (Optional) Try it in another Git repository
+
+If you have any local Git repository I encourage you to try using `jj` in it too:
+
+```bash
+cd path/to/my/repo
+jj git init --colocate
+```
+
+Now you can use `jj` with all the things you learn in this tutorial.
+
+If you ever want to get rid of `jj` in this repository:
+
+```bash
+cd path/to/my/repo
+rm -rf .jj/
+```
+
+That's it, as if `jj` had never been there! Any commits you created, rebased
+etc. via `jj` will of course be there since `jj` synchronizes the `jj` data
+with Git. It will just look as if everything had been done with Git.
