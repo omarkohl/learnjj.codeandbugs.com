@@ -7,6 +7,16 @@ description: Analyze the history of the repository.
 
 ## Introduction
 
+:::tip Change vs. Commit
+
+`jj` distinguishes between change and commit. A change is a commit as it
+evolves over time. You can consider both to be equivalent only that the change
+ID will remain the same as you modify that change (as opposed to the commit ID,
+which is different after every amend, rebase etc.). This is very convenient if
+you keep modifying the same change.
+
+:::
+
 The `jj log` command shows the history of the repository. If you configured `jj`
 as recommended in the last section, you can simply run `jj` to get the log
 output.
@@ -38,16 +48,6 @@ A few things to note about the above screenshot:
   when for instance you execute `git log`. Ju Jutsu maintains a separate
   internal Git history inside the `.jj` directory.
 
-:::tip Change vs. Commit
-
-A change is a commit as it evolves over time. You can consider them to be
-equivalent only that the change ID will remain unchanged as you modify its
-content, rebase it etc. Note that change IDs are currently NOT shared via
-push/pull so they may differ between repositories.
-
-This sounds more complicated than it is. You'll see!
-
-:::
 
 
 ## Examples
