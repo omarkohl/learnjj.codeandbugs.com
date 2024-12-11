@@ -153,3 +153,21 @@ jj rebase -r r -r w -A l
 ```bash
 jj
 ```
+
+
+## Integrate upstream changes
+
+Assume upstream 'main' has advanced and you want to incorporate those changes
+into your local merge commit. You could just re-create it. But you can also do
+the following:
+
+```bash
+jj rebase -s MERGE_CHANGE_ID -d "all:MERGE_CHANGE_ID-" -d UPSTREAM_CHANGE_ID
+jj simplify-parents -s MERGE_CHANGE_ID
+```
+
+Another variant, maybe simpler:
+
+```bash
+jj rebase -s MERGE_CHANGE_ID -d UPSTREAM_CHANGE_ID -d LOCAL_CHANGE_ID
+```
