@@ -88,6 +88,8 @@ Let's look at what we got:
 jj show
 ```
 
+![jj show](./show-1.webp)
+
 Let's describe what we did:
 
 ```bash
@@ -100,13 +102,19 @@ Look at the result:
 jj show
 ```
 
+![jj show](./show-2.webp)
+
 ```bash
 jj status
 ```
 
+![jj status](./status.webp)
+
 ```bash
 jj
 ```
+
+![jj log](./log-2.webp)
 
 Now we notice that we forgot to update the help text of `todocli` so let's fix that:
 
@@ -127,6 +135,8 @@ Let's look at the result:
 jj show
 ```
 
+![jj show](./show-3.webp)
+
 We are still working on the same change, with the same description as before.
 It was _automagically_ updated simply by us changing the code.
 
@@ -137,7 +147,7 @@ jj new
 ```
 
 Well, on second though, we should document the `list` command so let's do that.
-Insert the following above the "## Dev Setup" section in the `README.md`:
+Insert the following above the `## Dev Setup` section in the `README.md`:
 
 ```md title="README.md"
 ## Usage
