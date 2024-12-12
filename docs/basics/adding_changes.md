@@ -24,13 +24,13 @@ Make sure you have set up everything as described in the [Setup](./setup.md).
 
 We will be using the following `jj` commands:
 
-* describe
-* diff
-* new
-* rebase
-* split
-* squash
-* status
+* `describe`
+* `diff`
+* `new`
+* `rebase`
+* `split`
+* `squash`
+* `status`
 
 
 ## Listing tasks
