@@ -2,6 +2,8 @@
 sidebar_position: 2
 description: Analyze the history of the repository.
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Log
 
@@ -92,3 +94,25 @@ jj show
 jj show -s main
 ```
 
+
+## Takeaways
+
+Key points. As QA because of [active
+recall](https://en.wikipedia.org/wiki/Testing_effect). Try to come up with the
+answer yourself before looking 😉
+
+<Tabs>
+  <TabItem value="questions" label="Questions" default>
+    1. What is a change?
+    2. What is `@`?
+  </TabItem>
+  <TabItem value="answers" label="Answers">
+    1. A commit as it evolves over time. Even if you amend, rebase or change
+       the description, the change ID will remain the same whereas the commit
+       ID (hash) will not.
+    2. A short expression to refer to the working copy change i.e. the change
+       that matches all the files in your repository as you are seeing them
+       _right now_. It is quite common to refer to the parent or grandparent of
+       this change with `@-` and `@--` respectively.
+  </TabItem>
+</Tabs>
