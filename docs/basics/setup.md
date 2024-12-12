@@ -2,6 +2,9 @@
 sidebar_position: 1
 description: Installation and configuration of jj.
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Setup
 
 ## Installation
@@ -17,6 +20,10 @@ jj version
 
 ```bash title="Expected output (similar)"
 jj 0.24.0-32d2a85539254e9d96f9819072fa5c6ac70dd1e4
+```
+
+```bash title="Overview of commands"
+jj -h
 ```
 
 
@@ -133,3 +140,26 @@ watch --color jj --ignore-working-copy log --color=always
 
 See an explanation and alternatives
 [here](https://martinvonz.github.io/jj/latest/FAQ/#can-i-monitor-how-jj-log-evolves).
+
+
+## Takeaways
+
+Key points. As QA because of [active
+recall](https://en.wikipedia.org/wiki/Testing_effect). Try to come up with the
+answer yourself before looking 😉
+
+<Tabs>
+  <TabItem value="questions" label="Questions" default>
+    1. What is the relationship between Ju Jutsu and Git?
+    2. If you forget about a particular command, how do you refresh your memory?
+  </TabItem>
+  <TabItem value="answers" label="Answers">
+    1. Ju Jutsu lives on top of a Git repository and automatically synchronizes
+       Ju Jutsu internals with that Git repository. If you ever want to stop
+       using Ju Jutsu in a repository you can just delete the `.jj/` directory
+       inside it.
+    2. Use `jj -h`. To get more information for a particular command e.g.
+       `config` use `jj config -h` or for even more information either `jj
+        config --help` or `jj help config`.
+  </TabItem>
+</Tabs>
