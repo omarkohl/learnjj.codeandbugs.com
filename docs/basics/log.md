@@ -15,7 +15,16 @@ import TabItem from '@theme/TabItem';
 evolves over time. You can consider both to be equivalent only that the change
 ID will remain the same as you modify that change (as opposed to the commit ID,
 which is different after every amend, rebase etc.). This is very convenient if
-you keep modifying the same change.
+you keep modifying the same change. Commits are exactly the same thing as in
+Git, in fact `jj` relies on having an underlying Git repository.
+
+Another way of looking at it would be to say that the change ID is a label that
+`jj` attaches to a commit. Whenever you operate on that commit, `jj` will
+notice this and after modifying the commit will move the label from the old
+obsolete commit to the new one. Remember that commits in Git are immutable and
+any modification to the parents, commit message, commit date, content etc. will
+cause a new commit to be created that will have a different commit ID (hash),
+even if the commit may _look_ unchanged at first glance.
 
 :::
 
