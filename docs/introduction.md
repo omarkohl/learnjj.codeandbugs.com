@@ -43,3 +43,25 @@ may struggle with the tutorial.
 * You are ok using a **CLI (command line interface)**: Since Ju Jutsu is quite
   new there are few graphical tools or IDE support. This tutorial will be using
   the CLI.
+
+
+## Differences from Git
+
+As a _friendly warning_ here are some differences between Git and Ju Jutsu that
+may confuse you at first. I believe all the choices in Ju Jutsu are in fact
+better and all differences plus better workflows (or if you insist on the Git
+way of doing things: _workarounds_) will be addressed in due course during the
+tutorial. I claim there is nothing you can do in Git that you can't do equally
+well or better in Ju Jutsu.
+
+* The fundamental unit of change is called **change** not **commit**, even
+  though there are commits too.
+* Everything is **always committed**, automatically after you modify anything.
+* There is **no index** (staging area).
+* Ju Jutsu uses **bookmarks** as the equivalent of **branches** but you rarely
+  need them. Ju Jutsu is a _branchless_ VCS. You will almost always be in what
+  Git calls _detached HEAD state_. There is **no way of checking out** a
+  bookmark and making it move automatically as you keep adding changes.
+
+Here is a more [detailed
+comparison](https://martinvonz.github.io/jj/latest/git-comparison/).
