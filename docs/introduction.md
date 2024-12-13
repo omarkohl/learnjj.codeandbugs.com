@@ -2,10 +2,10 @@
 sidebar_position: 1
 title: Introduction
 slug: /
+description: Learn the fantastic Git-compatible version control system
 ---
 
 # Ju Jutsu Tutorial - Introduction
-
 Let's discover **Ju Jutsu**!
 
 [Ju Jutsu](https://martinvonz.github.io/jj/latest/) is a VCS (version control
