@@ -40,10 +40,12 @@ jj
 
 A few things to note about the above screenshot:
 
-* Starting at the top left, `@` is the working copy, which includes all
-  "uncommitted" modifications to the working directory. "uncommitted" is in
-  quotes because in jj, changes are always committed. It is only uncommitted in
-  the usual Git sense.
+* Starting at the top left, `@` is the working copy, meaning all files as they
+  currently appear in your working directory, including all modifications. `jj`
+  always commits everything for you, so `@` is a regular Ju Jutsu change (with
+  an underlying commit). If you use Git directly on the repository, all
+  modifications in `@` will be displayed as uncommited changes by Git because
+  `@` is tracked internally by Ju Jutsu.
 * Next to it, you have `smmzpnrn`, the change ID. Every change has such an ID
   that never changes even as you modify, rebase etc. the change. Highlighted is
   the shortest unique prefix that identifies the change, `s` in this case.
