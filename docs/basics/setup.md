@@ -174,10 +174,12 @@ answer yourself before looking 😉
     2. If you forget about a particular command, how do you refresh your memory?
   </TabItem>
   <TabItem value="answers" label="Answers">
-    1. Ju Jutsu lives on top of a Git repository and automatically synchronizes
-       Ju Jutsu internals with that Git repository. If you ever want to stop
-       using Ju Jutsu in a repository you can just delete the `.jj/` directory
-       inside it.
+    1. Ju Jutsu stores everything inside a `.jj/` directory, including an
+       internal Git repository.  Additionally, if your repository is
+       _colocated_ then the top level will **also** be a Git repository.  Both
+       Ju Jutsu and Git commands can then be used. Ju Jutsu makes sure to
+       synchronize data bidirectionally. If you ever want to stop using Ju
+       Jutsu in a repository you can just delete the `.jj/` directory.
     2. Use `jj -h`. To get more information for a particular command e.g.
        `config` use `jj config -h` or for even more information either `jj
         config --help` or `jj help config`.
