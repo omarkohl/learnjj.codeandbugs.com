@@ -34,15 +34,25 @@ jj -h
 Set some _global_ (for your user) configuration. Adapt as needed.
 
 ```bash title="Set your preferred text editor"
+# Note if you have an EDITOR env variable you can skip this
 jj config set --user ui.editor vim
+
+## To copy the setting from Git use the following instead:
+#jj config set --user ui.editor "`git config --get core.editor`"
 ```
 
 ```bash title="Set email and name"
 jj config set --user user.email ME@EXAMPLE.COM
 jj config set --user user.name "MY NAME"
+
+## To copy the settings from Git use the following instead:
+#jj config set --user user.email "`git config --get user.email`"
+#jj config set --user user.name "`git config --get user.name`"
 ```
 
-Make `jj` default to `jj log`, which is very convenient:
+Make `jj` default to `jj log`, which is very convenient. Otherwise you'll have
+to type `jj log` instead of `jj` every time you want to see the history, which
+is frequently.
 
 ```bash
 jj config set --user ui.default-command log
