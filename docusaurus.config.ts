@@ -40,6 +40,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/omarkohl/learnjj.codeandbugs.com/tree/main/',
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
