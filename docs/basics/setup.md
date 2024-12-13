@@ -95,6 +95,16 @@ jj git clone --colocate https://github.com/omarkohl/jj-tutorial
 cd jj-tutorial
 ```
 
+:::tip Colocate
+
+`--colocate` allows you to use both Git commands and Ju Jutsu commands in the
+same repository. If you don't use that option then Ju Jutsu will still keep an
+internal Git repository inside the `.jj/` directory but you will not be able to
+execute any `git ...` commands yourself.
+
+:::
+
+
 ```bash title="See the log (history)"
 jj
 ```
