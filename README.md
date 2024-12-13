@@ -7,6 +7,24 @@ system), like Git or Mercurial.
 Visit https://learnjj.codeandbugs.com to get started.
 
 
+## License
+
+Unless otherwise specified:
+ 
+* The source **code** and code samples are licensed under the **MIT** license.
+  See the LICENSE-code file for details.
+* The **documentation** is licensed under the **CC BY-SA 4.0**
+  (Attribution-ShareAlike 4.0 International License). See the LICENSE-docs file
+  for details.
+ 
+
+### Know exceptions:
+ 
+* The **logo** and derived files (e.g. the favicon) are NOT covered by the
+  above licenses and belong to
+  [freepik.com](https://www.freepik.com/free-vector/cute-ninja-with-shuriken-cartoon-flat-cartoon-style_12873501.htm).
+
+
 ## Developer Documentation
 
 Documentation for people who want to contribute to the tutorial. If you only
