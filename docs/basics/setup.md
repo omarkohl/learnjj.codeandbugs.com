@@ -73,7 +73,7 @@ jj config get revsets.log
 ```
 
 ```bash title="Change the value"
-jj config set --user revsets.log "present(@) | ancestors(immutable_heads().., 7) | present(trunk())"
+jj config set --user revsets.log '"present(@) | ancestors(immutable_heads().., 7) | present(trunk())"'
 ```
 
 
