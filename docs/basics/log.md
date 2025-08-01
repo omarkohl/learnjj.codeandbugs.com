@@ -83,7 +83,7 @@ jj -r kt+
 jj -r 'committer_date(after:"2024-12-05") & committer_date(before:"2024-12-06") & ::main'
 ```
 
-Check the [Revset language](https://martinvonz.github.io/jj/latest/revsets/) for
+Check the [Revset language](https://jj-vcs.github.io/jj/latest/revsets/) for
 more options.
 
 

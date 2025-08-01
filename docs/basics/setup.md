@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 ## Installation
 
 Start by installing `jj`, following the [installation
-instructions](https://martinvonz.github.io/jj/latest/install-and-setup/).
+instructions](https://jj-vcs.github.io/jj/latest/install-and-setup/).
 
 Verify the installation was successful:
 
@@ -144,7 +144,7 @@ source <(jj util completion bash)
 ```
 
 See [more
-examples](https://martinvonz.github.io/jj/latest/install-and-setup/#command-line-completion)
+examples](https://jj-vcs.github.io/jj/latest/install-and-setup/#command-line-completion)
 for other shells.
 
 
@@ -159,7 +159,7 @@ watch --color jj --ignore-working-copy log --color=always
 ```
 
 See an explanation and alternatives
-[here](https://martinvonz.github.io/jj/latest/FAQ/#can-i-monitor-how-jj-log-evolves).
+[here](https://jj-vcs.github.io/jj/latest/FAQ/#can-i-monitor-how-jj-log-evolves).
 
 
 ## Takeaways

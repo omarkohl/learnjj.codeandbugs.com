@@ -1,6 +1,6 @@
 # learnjj.codeandbugs.com
 
-[Ju Jutsu (jj)](https://martinvonz.github.io/jj/latest/) tutorial source, built
+[Ju Jutsu (jj)](https://jj-vcs.github.io/jj/latest/) tutorial source, built
 using [Docusaurus](https://docusaurus.io/). **jj** is a VCS (version control
 system), like Git or Mercurial.
 

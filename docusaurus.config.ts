@@ -84,7 +84,7 @@ const config: Config = {
           items: [
             {
               label: 'Ju Jutsu Docs',
-              href: 'https://martinvonz.github.io/jj/latest/',
+              href: 'https://jj-vcs.github.io/jj/latest/',
             },
           ],
         },
