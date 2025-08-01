@@ -8,7 +8,7 @@ description: Learn the fantastic Git-compatible version control system
 # Ju Jutsu Tutorial - Introduction
 Let's discover **Ju Jutsu**!
 
-[Ju Jutsu](https://martinvonz.github.io/jj/latest/) is a VCS (version control
+[Ju Jutsu](https://jj-vcs.github.io/jj/latest/) is a VCS (version control
 system) like **Git or Mercurial** that is fully compatible with Git. You can
 use it inside a Git repository with the option of going back to Git at any
 time. You can in fact mix and match Git and Ju Jutsu commands, depending on
@@ -64,4 +64,4 @@ well or better in Ju Jutsu.
   bookmark and making it move automatically as you keep adding changes.
 
 Here is a more [detailed
-comparison](https://martinvonz.github.io/jj/latest/git-comparison/).
+comparison](https://jj-vcs.github.io/jj/latest/git-comparison/).
