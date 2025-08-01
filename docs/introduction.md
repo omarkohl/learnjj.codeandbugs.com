@@ -10,7 +10,7 @@ Let's discover **Ju Jutsu**!
 
 [Ju Jutsu](https://martinvonz.github.io/jj/latest/) is a VCS (version control
 system) like **Git or Mercurial** that is fully compatible with Git. You can
-use it inside a Git repository with the option of going back to to Git at any
+use it inside a Git repository with the option of going back to Git at any
 time. You can in fact mix and match Git and Ju Jutsu commands, depending on
 which suit you more _right now_.
 
@@ -36,7 +36,7 @@ may struggle with the tutorial.
 * You are comfortable using **(interactive) rebase, squash and cherry-pick**:
   In reality this is not a hard requirement but if you are not comfortable
   using those Git tools then you probably use a very linear Git workflow and
-  you might feel that the workflows here presented are solving problems that
+  you might feel that the workflows presented here are solving problems that
   you don't have. I think Ju Jutsu is still great for such a simple, linear
   workflow but it would probably require a different tutorial to make that case
   well.
